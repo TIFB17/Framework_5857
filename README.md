@@ -6,3 +6,4 @@ Mohon untuk mengisi dengan semestinya, Terima Kasih.
 
 - Hakimhakiki
 - Aldy Pratama
+- Novia Nurul
