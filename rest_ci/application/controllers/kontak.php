@@ -25,5 +25,17 @@ class Kontak extends REST_Controller {
     }
 
     //Masukan function selanjutnya disini
+
+    //Menghapus salah satu data kontak (bagian aldy)
+    function index_delete() {
+        $id = $this->delete('id');
+        $this->db->where('id', $id);
+        $delete = $this->db->delete('telepon');
+        if ($delete) {
+            $this->response(array('status' => 'success'), 201);
+        } else {
+            $this->response(array('status' => 'fail', 502));
+        }
+    }
 }
 ?>
