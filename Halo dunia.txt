@@ -1,3 +1,8 @@
 Halo dunia 
 Arek GKL ayu ayu rek
+<<<<<<< HEAD
 Hafid ga mandi
+=======
+karepmu
+ok aku sayang abdi
+>>>>>>> 02a7849c965040e8907cefb47ecaa030516aad0e
